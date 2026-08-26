@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(1, 1, 46);
+    padding: 20px;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.logo img{
+    width: 100px;
+} 
+
+.list{
+   display: flex;
+   list-style: none;
+}
+ 
+.list li{
+margin-left: 20px;
+
+}
+
+.list li a{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.btn{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,rgba(1, 1, 56, 0.5), rgba(0, 153, 255, 0.5));
+    
+
+}
+
+.hero-section{
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.hero-left{
+    width: 50%;
+    padding: 10px;
+
+}
+
+.hero-right{
+    width: 50%;
+    padding: 10px
+}
+
+.hero-left h1{
+    color: white;
+    font-size: 50px;
+}
+.hero-left p{
+    color: white;
+}
+.hero-left h1 span{
+    color: #0396ff
+}
+
+.david button{
+ border-radius: 20px;
+ padding: 10px;
+ background-color: #020288;
+ color: white;
+ cursor: pointer;
+}
+
+.david button:hover{
+    background-color: #0303c5;
+}
+
+.hero-right img{
+   width: 500px;
+   height: 300px;
+   border-radius: 30px;
+   margin-top: 60px;
+}
